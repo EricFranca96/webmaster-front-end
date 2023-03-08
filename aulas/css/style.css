@@ -7,19 +7,26 @@ html, body{
     height: 100%;
 }
 
-.lista,.lista2{
-    list-style-position: inside;
-    list-style-type: disc;
-    margin-left: 20px;
+.um {
+    width: 500px;
+    height: 500px;
+    background: red;
 }
 
-.lista .item3, .lista2 .item3{
-    font-weight: bold;
+.um > .dois{
+    width: 300px;
+    height: 300px;
+    background: green;
 }
 
-.lista li,.lista2 li{
-    font-size: 18px;
-    color: #4b4b4b;
-    margin-top: 10px;
+.um > .tres{
+    width: 100px;
+    height: 100px;
+    background: blue;
 }
 
+.um  .quatro{
+    width: 100px;
+    height: 100px;
+    background: gray;
+}
