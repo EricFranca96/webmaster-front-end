@@ -8,19 +8,38 @@ body {
     height: 100%;
 }
 
-.box{
-    width: 40%;
-    height: 300px;
-    color: gray;
+.text[type=text]{
+    background-color: green;
 }
 
-.box p{
-    color: initial;
-    background-color: initial;
+input[type=submit]{
+    background-color: blue;
 }
 
-/* @media screen and (max-width: 480px) {
-    .box{
-        height: auto;
-    }
+/* a[href="http://www.google.com"]{
+    background-color: yellow;
+}
+
+[href="http://www.google.com"]{
+    background-color: green;
 } */
+
+/* PROUCURE ENTRE OS ESPAÇOS DO ATRIBUTO.
+
+a[attr~="google"]{
+    background-color: blue;
+} 
+
+ACHE A PALAVRA GOOGLE EM QUALQUER LUGAR.
+
+a[attr*="google"]{
+    background-color: blue;
+} 
+QUANDO COMEÇAMOS COM A PALAVRA GOOGLE SEGUIDO POR UM ACENTO.
+a[attr|="google"]{
+    background-color: yellow;
+}
+*/
+
+
+
