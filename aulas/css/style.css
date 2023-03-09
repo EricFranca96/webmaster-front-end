@@ -7,14 +7,13 @@ html, body{
     height: 100%;
 }
 
-.header{
-    width: 100%;
-    height: 200px;
-    background: gray;
+.center{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: gray;
 }
 
-.article{
-    width: 100%;
-    height: 600px;
-    background: red;
+.artigo{
+   
+    margin-bottom: 40px;
 }
