@@ -8,38 +8,35 @@ body {
     height: 100%;
 }
 
-.text[type=text]{
-    background-color: green;
+/* table{
+    width: 900px;
+    border-collapse: collapse;
+    margin: 0 auto;
 }
 
-input[type=submit]{
-    background-color: blue;
-}
-
-/* a[href="http://www.google.com"]{
-    background-color: yellow;
-}
-
-[href="http://www.google.com"]{
-    background-color: green;
+table tr td{
+    background-color: rgb(200, 200, 200);
+    height: 300px;
+    vertical-align: bottom;
+    border: 3px solid black;
 } */
 
-/* PROUCURE ENTRE OS ESPAÇOS DO ATRIBUTO.
-
-a[attr~="google"]{
-    background-color: blue;
-} 
-
-ACHE A PALAVRA GOOGLE EM QUALQUER LUGAR.
-
-a[attr*="google"]{
-    background-color: blue;
-} 
-QUANDO COMEÇAMOS COM A PALAVRA GOOGLE SEGUIDO POR UM ACENTO.
-a[attr|="google"]{
-    background-color: yellow;
+.menu-fixed{
+    position: relative;/*absolute, fixed; */
+    left: 50px;
+    top: 300px;
+    
+    width: 300px;
+    height: 200px;
+    background: #069;
 }
-*/
 
+.box{
+    width: 400px;
+    height: 500px;
+    background: green;
+}
 
-
+.box p {
+    width: 400px;
+}
