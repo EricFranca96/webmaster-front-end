@@ -8,35 +8,16 @@ body {
     height: 100%;
 }
 
-/* table{
-    width: 900px;
-    border-collapse: collapse;
+.bg{
+    width: 50%;
+    height: 50%;
     margin: 0 auto;
-}
 
-table tr td{
-    background-color: rgb(200, 200, 200);
-    height: 300px;
-    vertical-align: bottom;
-    border: 3px solid black;
-} */
+    /*Backgrounds*/
 
-.menu-fixed{
-    position: relative;/*absolute, fixed; */
-    left: 50px;
-    top: 300px;
-    
-    width: 300px;
-    height: 200px;
-    background: #069;
-}
-
-.box{
-    width: 400px;
-    height: 500px;
-    background: green;
-}
-
-.box p {
-    width: 400px;
+    background-color: red;
+    background-image: url('../imagem/danki_bg.jpg');
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
