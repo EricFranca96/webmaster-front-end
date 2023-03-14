@@ -8,41 +8,34 @@ body {
     height: 100%;
 }
 
-.teste, .teste1, .teste2{
-    width: 300px;
-    margin-top: 30px;
-    margin-left: 30px;
-    display: inline-block;
-    height: 30px;
-    /* background-color: #ccc; */
+.box{
+    width: 100%;
 }
 
-.teste1{
-    background-color: rgb(98, 98, 98);
+.box > div{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
 }
 
-.teste2{
-    background-color: rgb(50, 50, 50);
+.box div:not(.one){
+    background-color: gold;
 }
+
 
 /* 
-EFEITO HOVER.
 
-.teste:hover{
-    background-color: blue;
+.box div:last-of-type p{
+    color: rgba(255, 255, 255, 1);
 }
 
-.teste:hover,.teste1,.teste2{
-    vertical-align: top;
-} 
-Active serve para quando estamos com o mouse pressionado em cima do nosso elemento.
-
-.teste:active{
-    background-color: black;
+ul{
+    list-style-position: inside;
 }
 
-*/
-
-.teste:focus{
-    background-color: red;
-}
+ul li:nth-of-type(2){
+    color: red;
+} */
