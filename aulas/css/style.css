@@ -12,36 +12,93 @@ body {
     width: 100%;
 }
 
-.parent{
-    background-color: #069;
-    width: 100%;
-    padding: 90px 0;
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 30px auto;
     text-align: center;
 }
 
-.item{
+form fieldset{
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+}
+
+form legend{
+    text-align: left;
+    font-size: 17px;
+    color: rgb(130, 130, 130);
+}
+
+form input[type=text]{
+    font-family: tahoma;
     display: inline-block;
-    width: 300px;
-    height: 300px;
-    background-color: green;
-    margin: 20px 0;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    border: 1px solid #ccc;
 }
 
-/*
-Fórmulas: Estamos dizendo que a cada 3 elementos aplique o estilo, incluindo o 3.
-.parent div:nth-of-type(3n + 1) div.item{
-    background-color: red;
+form input[type=text]:focus, form select:focus, form textarea:focus{
+    outline: 0;
 }
 
-.parent div:last-child div.item{
-    background-color: purple;
+form select{
+    font-family: tahoma;
+    width:calc(80% + 26px);
+    margin-top: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+    border: 1px solid #ccc;
 }
 
-.parent p:first-of-type{
-    color: orange;
+form h2{
+    margin-top: 20px;
+    color: rgb(100, 100, 100);
 }
 
-.parent p:first-child{
-    color: red;
+.radio-input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
 }
-*/
+
+.radio-input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+form textarea{
+    font-family: tahoma;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    width: 80%;
+    height: 140px;
+    padding: 10px 13px;
+    resize: none;
+}
+
+form input[type="submit"]{
+    margin-top: 30px;
+    border: 0;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid rgb(130, 130, 130);
+    color: white;
+    background-color: rgb(140, 140, 140)
+}
