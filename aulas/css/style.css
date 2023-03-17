@@ -12,30 +12,36 @@ body {
     width: 100%;
 }
 
-.box > div{
-    box-sizing: border-box;
-    float: left;
-    width: 33.3%;
-    height: 400px;
+.parent{
+    background-color: #069;
+    width: 100%;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.item{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 20px 0;
+}
+
+/*
+Fórmulas: Estamos dizendo que a cada 3 elementos aplique o estilo, incluindo o 3.
+.parent div:nth-of-type(3n + 1) div.item{
     background-color: red;
-    border: 1px solid black;
 }
 
-.box div:not(.one){
-    background-color: gold;
+.parent div:last-child div.item{
+    background-color: purple;
 }
 
-
-/* 
-
-.box div:last-of-type p{
-    color: rgba(255, 255, 255, 1);
+.parent p:first-of-type{
+    color: orange;
 }
 
-ul{
-    list-style-position: inside;
-}
-
-ul li:nth-of-type(2){
+.parent p:first-child{
     color: red;
-} */
+}
+*/
