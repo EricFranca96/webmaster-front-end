@@ -9,6 +9,10 @@ html, body{
     height: 100%;
 }
 
+.clear{
+    clear: both;
+}
+
 .center{
     width: 1200px;
     margin: 0 auto;
@@ -174,7 +178,7 @@ html, body{
 
 .container-single{
     float: left;
-    width: 33.333%;
+    width: 33.3333%;
     padding: 30px;
 }
 
@@ -187,3 +191,16 @@ html, body{
 .container-single img{
     width: 70px;
 }
+
+.footer{
+    border-top: 2px solid #888;
+    padding: 60px 0;
+    text-align: center;
+    color: #888;
+}
+
+.footer p{
+    margin-top: 8px;
+}
+
+
