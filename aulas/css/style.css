@@ -4,41 +4,21 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-}
-
-.slider{
-    width: 97%;
-    margin: 0 auto;
-    max-width: 700px;
-    height: 500px;
-    border: 1px solid #ccc;
-    position: relative;
-}
-
-.img-slider{
-    position: absolute;
-    left: 0;
-    top: 0;
+header.principal{
     width: 100%;
-    height: 100%;
+    padding: 20px 0;
+    background-color: #ccc;
 }
 
-.one{
-    z-index: 3;
-    background-color: red;
+header.principal > nav{
+    text-align: center;
 }
 
-.two{
-    left: 40px;
-    z-index: 2;
-    background-color: orange;
+header.principal > nav > ul{
+    list-style-type: none;
 }
 
-.three{ 
-    left: 80px;
-    z-index: 1;
-    background-color: pink;
+header.principal > nav > ul > li{
+    display: inline-block;
+    margin: 0 25px;
 }
