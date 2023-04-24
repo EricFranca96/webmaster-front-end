@@ -9,59 +9,36 @@ body {
     height: 100%;
 }
 
-.container {
-    padding: 30px 0;
-    background-color: #ccc;
-    text-align: center;
+.slider{
+    width: 97%;
+    margin: 0 auto;
+    max-width: 700px;
+    height: 500px;
+    border: 1px solid #ccc;
+    position: relative;
 }
 
-.box{
-    border: 2px solid black;
-    width: 33.3%;
-    height: 300px;
-    max-width: 300px;
-    margin-right: -4px;
-    margin-bottom: -4px;
+.img-slider{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.one{
+    z-index: 3;
     background-color: red;
-    display: inline-block;
-    
 }
 
-.box:last-child{
-    margin-right: 0;
+.two{
+    left: 40px;
+    z-index: 2;
+    background-color: orange;
 }
 
-@media screen and (max-width: 768px){
-    .container{
-        text-align: right;
-        padding: 2% 20px;
-    }
-    .box{
-        max-width: none;
-        width: 50%;
-    }
-   .box:nth-of-type(2){
-    margin-right: 0;
-   }
+.three{ 
+    left: 80px;
+    z-index: 1;
+    background-color: pink;
 }
-
-@media screen and (max-width: 580px){
-    .box{
-        width: 100%;
-        margin-right: 0;
-    }
-}
-
-
-
-/* @media screen and (max-width: 580px){
-    .box{
-        width: 50%;
-    }
-}
-
-@media  screen and (max-width: 320px){
-    .box{
-        width: 100%;
-    } 
-} */
