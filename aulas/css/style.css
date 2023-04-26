@@ -16,8 +16,10 @@
     top: 50%;
     transition: 2s;
 }
-
+.transform p{
+    padding: 22px;
+}
 .transform:hover{
-    transform: translate(-50%, -50%) rotate(45deg) ;
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.5,1.5);
     box-shadow: -65px -20px 20px 20px black;
 }
