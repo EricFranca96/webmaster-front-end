@@ -4,39 +4,26 @@
     box-sizing: border-box;
 }
 
-div.box{
-    text-align: center;
+.box h2{
+    color: gray;
+    font-size: 24px;
 }
 
-div.box img{
-    width: 40%;
-    animation-name: animacao;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    -webkit-box-shadow: 10px 10px 15px 5px rgb(200,200,200);
-    box-shadow: 10px 10px 15px 5px rgb(200,200,200);
+.box p{
+    color: rgb(130,130,130);
+    font-size: 17px;
+    font-style: italic;
 }
 
-@keyframes animacao {
-    0%{
-        box-shadow: 10px 10px 15px 5px rgb(200,200,200);
-    }
-    50%{
-        box-shadow: 30px 20px 15px 5px rgb(200,200,200);
-    }
-    100%{
-        box-shadow: 10px 10px 15px 5px rgb(200,200,200);
-    }
+.box2 h2{
+    color: orange;
+    font-size: 24px;
 }
 
-/*
-Site para gerar o proprio box shadow 
-fazer outro efeito se for criar o proprio box shadow.
-https://www.cssmatic.com/box-shadow
-*/
-
-
-
-
+.box2 p{
+    color: green;
+    font-size: 17px;
+    font-style: italic;
+}
 
 
