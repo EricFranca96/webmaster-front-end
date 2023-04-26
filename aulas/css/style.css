@@ -15,11 +15,29 @@
     left: 50%;
     top: 50%;
     transition: 2s;
+    animation-name: animacao;
+    animation-duration: 4s;
+    
 }
-.transform p{
-    padding: 22px;
+
+@keyframes animacao {
+    0%{
+        transform: translate(-50%,-50%) rotateY(0deg);
+    }
+    50%{
+        transform: translate(-50%,-50%) rotateY(180deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotateY(0deg);
+    }
 }
-.transform:hover{
-    transform: translate(-50%, -50%) rotate(45deg) scale(1.5,1.5);
+
+
+
+
+/* .transform:hover{
     box-shadow: -65px -20px 20px 20px black;
-}
+    transform: translate(-50%, -50%) rotateY(180deg);  Efeito 3D
+    transform: translate(-50%, -50%) rotateX(180deg); --> Efeito 3D
+    animation-name: animacao;
+    animation-duration: 2s; */
