@@ -5,7 +5,7 @@
 }
 
 .transform{
-    transform:  translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     width: 50%;
     max-width: 500px;
     height: 500px;
@@ -14,4 +14,10 @@
     position: absolute;
     left: 50%;
     top: 50%;
+    transition: 2s;
+}
+
+.transform:hover{
+    transform: translate(-50%, -50%) rotate(45deg) ;
+    box-shadow: -65px -20px 20px 20px black;
 }
