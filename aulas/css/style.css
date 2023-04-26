@@ -4,40 +4,16 @@
     box-sizing: border-box;
 }
 
-.transform{
-    transform: translate(-50%, -50%);
-    width: 50%;
-    max-width: 500px;
-    height: 500px;
-    border: 3px solid #ccc;
-    border-radius: 8px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transition: 2s;
-    animation-name: animacao;
-    animation-duration: 4s;
-    
+.box{
+    width: 100%;
+    padding: 30px 2%;
+    background-color: rgb(220,220,220);
+    position: relative;
 }
 
-@keyframes animacao {
-    0%{
-        transform: translate(-50%,-50%) rotateY(0deg);
-    }
-    50%{
-        transform: translate(-50%,-50%) rotateY(180deg);
-    }
-    100%{
-        transform: translate(-50%,-50%) rotateY(0deg);
-    }
+.box p{
+    display: inline;
+    border-bottom: 2px solid green;
+    color: #444;
+    font-size: 13px;
 }
-
-
-
-
-/* .transform:hover{
-    box-shadow: -65px -20px 20px 20px black;
-    transform: translate(-50%, -50%) rotateY(180deg);  Efeito 3D
-    transform: translate(-50%, -50%) rotateX(180deg); --> Efeito 3D
-    animation-name: animacao;
-    animation-duration: 2s; */
