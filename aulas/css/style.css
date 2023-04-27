@@ -4,22 +4,8 @@
     box-sizing: border-box;
 }
 
-main{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-aside{
-    width: 300px;
-    /* order: 2; */
-    padding: 90px 20px;
-    background: #ccc;
-}
-
-article{
-    width: 800px;
-    /* order: 1; */
-    padding: 30px;
-    background: gray;
+.box{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to right, red, green, orange, purple);
 }
