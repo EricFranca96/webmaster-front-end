@@ -4,21 +4,19 @@
     box-sizing: border-box;
 }
 
-.table{
-    display: table;
-    width: 900px;
-    margin: 0 auto;
-    border-collapse: collapse;
+main{
+    display: flex;
+    /* flex-direction: row-reverse; */
 }
 
-.table-row{
-    display: table-row;
+aside{
+    order: 2;
+    padding: 30px;
+    background: #ccc;
 }
 
-.table-cel{
-    height: 400px;
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid black;
-    display: table-cell;
+article{
+    order: 1;
+    padding: 30px;
+    background: gray;
 }
