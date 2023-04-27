@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
-.box{
-    width: 100%;
-    height: 500px;
-    background: radial-gradient(circle,red, orange, green );
-    /* background: repeating-linear-gradient(45deg, orange, red 20%, green 40%); */
+:root{
+    --corPadrao: blue;
+    --widthPadrao: 300px;
+}
+
+div{
+    background-color: var(--corPadrao);
+    max-width: var(--widthPadrao);
+    margin: 0 auto;
 }
