@@ -7,5 +7,6 @@
 .box{
     width: 100%;
     height: 500px;
-    background: linear-gradient(to right, red, green, orange, purple);
+    background: radial-gradient(circle,red, orange, green );
+    /* background: repeating-linear-gradient(45deg, orange, red 20%, green 40%); */
 }
