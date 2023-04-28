@@ -21,13 +21,10 @@ html,body{
     clear: both;
 }
 
-
-
 /******/
 
-
 header{
-    background-color: #bed8f6;
+    background-color: rgb(220,220,220);
     padding: 10px 2% 40px 2%;
 }
 
@@ -35,7 +32,7 @@ header{
     float: left;
     width: 160px;
     height: 60px;
-    background-image: url(/imagens/logo1.jpg);
+    background-image: url(../imagens/logo1.png);/*Para a imagem aparecer no local host chamar ../ */
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -46,7 +43,7 @@ header{
     float: right;
     width: 160px;
     height: 60px;
-    background-image: url(/imagens/logo2.png);
+    background-image: url(../imagens/logo2.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -61,7 +58,7 @@ section.cover-form{
     height: 560px;
     background-position: center;
     background-size: cover;
-    background-image: url(/imagens/bg-form.jpg);
+    background-image: url(../imagens/bg-form.jpg);
 }
 
 .form-container{
@@ -126,7 +123,7 @@ section.chamada{
 }
 
 section.chamada div.container{
-    background-color: #e0effa;
+    background-color: #29526d;
     padding: 70px 0 50px 0;
 }
 
@@ -134,9 +131,9 @@ section.chamada h2{
     width: 98%;
     max-width: 700px;
     display: inline-block;
-    color: black;
+    color: white;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: normal;
 }
 
@@ -144,11 +141,45 @@ section.chamada p{
     width: 98%;
     max-width: 700px;
     display: inline-block;
-    color: black;
+    color: white;
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: normal;
 }
+
+.flex-mosaico{
+    display: flex;
+}
+
+.item-1-mosaico{
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+
+.item-2-mosaico{
+    background-color: #4683ab;
+    padding: 60px 40px;
+    width: 40%;
+}
+
+.item-2-mosaico p{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img{
+    width: 120px;
+}
+
+footer p{
+    margin-top: 8px;
+}
+
 
 @media screen and (max-width: 960px) {
     .bg{
@@ -165,7 +196,21 @@ section.chamada p{
     }
 }
 
-@media screen and(max-width: 510px){
+@media screen and (max-width:768px) {
+    .flex-mosaico{
+        display: block;
+    }
+    .item-1-mosaico{
+        padding-top: 80%;
+        width: 100%;
+    }
+    .item-2-mosaico{
+        text-align: justify;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 510px){
     header{
         text-align: center;
     }
