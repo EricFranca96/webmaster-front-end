@@ -55,7 +55,7 @@ nav.mobile-menu ul {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 75px;
+    top: 80px;
     color: white;
     list-style-type: none;
     text-align: center;
@@ -105,14 +105,13 @@ header nav.desktop-menu li a {
 .chamada1 {
     max-width: 600px;
     float: right;
-    margin: 140px 150px;
+    margin: 200px 150px;
 }
 
 .chamada1 h2 {
     font-weight: 300;
     font-size: 40px;
     color: white;
-    font-weight: normal;
 }
 
 .chamada1 p {
@@ -160,7 +159,6 @@ section.sessao1 .container {
 }
 
 .texto-sessao1 ul li {
-    float: left;
     width: 100%;
     margin-top: 8px;
 }
@@ -218,10 +216,11 @@ section.sessao1 .container {
     margin-top: 10px;
 }
 
-.sessao3{
+.sessao3 {
     width: 100%;
 }
-.part1{
+
+.part1 {
     color: white;
     float: left;
     width: 50%;
@@ -229,10 +228,10 @@ section.sessao1 .container {
     background: #835FA7;
 }
 
-.wraper-part1{
+.wraper-part1 {
     max-width: 600px;
     float: right;
-    padding-right: 30px;
+    padding: 0 30px;
 }
 
 .part1 h2 {
@@ -247,29 +246,29 @@ section.sessao1 .container {
     margin-top: 10px;
 }
 
-.part2{
+.part2 {
     float: left;
     width: 50%;
     padding: 140px 0px 90px 0px;
     background: white;
 }
 
-.sobre-autor{
+.sobre-autor {
     float: left;
     max-width: 600px;
     padding-left: 30px;
 }
 
-.titulo-autor{
+.titulo-autor {
     float: left;
     width: 100%;
 }
 
-.wraper-titulo-autor{
+.wraper-titulo-autor {
     float: left;
 }
 
-.titulo-autor h2{
+.titulo-autor h2 {
     color: #232323;
     font-weight: 400;
     font-size: 21px;
@@ -283,7 +282,7 @@ section.sessao1 .container {
     font-weight: 300;
 }
 
-.titulo-autor .img-autor{
+.titulo-autor .img-autor {
     float: left;
     width: 40px;
     height: 40px;
@@ -293,33 +292,134 @@ section.sessao1 .container {
     background: green;
 }
 
-.texto-autor{
+.texto-autor {
     float: left;
     width: 100%;
     margin-top: 10px;
 }
 
-.texto-autor p{
+.texto-autor p {
     color: #232323;
     font-size: 15px;
 }
 
-.slider-bullets{
+.slider-bullets {
     width: 100%;
     float: left;
     padding-left: 30px;
     margin-top: 12px;
 }
 
-.slider-bullets span{
+.slider-bullets span {
     width: 16px;
     height: 16px;
     float: left;
     margin-right: 8px;
     cursor: pointer;
     border-radius: 8px;
-    background-color: rgb(200,200,200);
+    background-color: rgb(200, 200, 200);
 }
+
+section.sessao4{
+    background-color: #472563;
+    padding: 100px 0;
+}
+
+.form{
+    float: left;
+    width: 50%;
+    color: white;
+    padding-left: 10px;
+}
+
+.form h2{
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.form p {
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 400px;
+    padding-right: 10px;
+}
+
+.form form {
+    margin-top: 15px;
+}
+
+
+
+.form form input[type="text"] {
+    width: 90%;
+    max-width: 480px;
+    margin-top: 8px;
+    height: 58px;
+    padding-left: 8px;
+    line-height: 58px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.form form textarea{
+    width: 90%;
+    margin-top: 8px;
+    max-width: 480px;
+    padding: 15px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 160px;
+}
+
+.form form input[type="submit"]{
+    border: 0;
+    background-color: #FF703D;
+    width: 165px;
+    height: 44px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+.map-wraper{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    color: white;
+}
+
+.map-wraper h2 {
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.map-wraper3{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 480px;
+    position: relative;
+}
+
+.map-wraper2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 100%;
+}
+
+
+
+.map{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: 5px solid rgb(200, 200, 200);
+}
+
 
 @media screen and (max-width:830px) {
     .chamada1 {
@@ -333,7 +433,7 @@ section.sessao1 .container {
     .chamada1 h2 {
         font-weight: 300;
         font-size: 30px;
-        padding: 0 10px;
+        padding: 0 0px;
         color: white;
     }
 
@@ -359,27 +459,6 @@ section.sessao1 .container {
 
     nav.mobile-menu {
         display: block;
-    }
-
-    .chamada1 {
-        max-width: none;
-        width: 100%;
-        text-align: center;
-        float: none;
-        margin: 100px 0;
-    }
-
-    .chamada1 h2 {
-        font-weight: 300;
-        font-size: 30px;
-        padding: 0 10px;
-        color: white;
-    }
-
-    .chamada1 p {
-        font-size: 15px;
-        color: white;
-        margin-top: 10px;
     }
 
     section.sessao1 {
@@ -416,6 +495,61 @@ section.sessao1 .container {
     }
 
     .sessao2 {
-        padding: 40px 2%;
+        padding-top: 40px;
+    }
+    
+    section.sessao4 .container{
+        text-align: center;
+    }
+
+    .form{
+        float: none;
+        width: 100%;
+    }
+
+    .form p{
+        display: inline-block;
+        float: none;
+
+    }
+
+    .map-wraper{
+        float: none;
+        width: 100%;
+        padding: 0 4%;
+        margin-top: 40px;
+    }
+
+    .map-wraper3{
+        margin-top: 10px;
+        width: 80%;
+        padding-top: 80%;
+        display: inline-block;
+        max-width: none;
+        position: relative;
+    }
+    
+    .map-wraper2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 0;
+
+}
+
+@media screen and (max-width: 580px) {
+    .part1{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .part2{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .sessao2 img {
+        top: 16px;
+        margin-top: 20px;
     }
 }
