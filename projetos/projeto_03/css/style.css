@@ -79,7 +79,7 @@ nav.mobile-menu ul li a {
 
 header .logo {
     position: relative;
-    top: -5px;
+    top: -10px;
     float: left;
     width: 160px;
     height: 40px;
@@ -288,7 +288,7 @@ section.sessao1 .container {
     float: left;
     width: 40px;
     height: 40px;
-    background-image: url(../imagens/capa.png);
+    background-image: url('../imagens/capa.png');
     background-size: 100% 100%;
     border-radius: 20px;
     background: green;
@@ -466,7 +466,7 @@ footer p:nth-of-type(2) {
     header {
         width: 100%;
         height: auto;
-        /* min-height: 90vh;  */
+        min-height: 90vh;
         padding: 40px 2%;
         /* max-height: 700px; */
     }
@@ -483,6 +483,10 @@ footer p:nth-of-type(2) {
         padding: 40px 2%;
         height: auto;
         text-align: center;
+    }
+
+    .sessao1 .container{
+        height: auto;
     }
 
     .texto-sessao1 {
@@ -534,14 +538,14 @@ footer p:nth-of-type(2) {
     .map-wraper {
         float: none;
         width: 100%;
-        padding: 0 4%;
+        padding: 0 8%;
         margin-top: 40px;
     }
 
     .map-wraper3 {
         margin-top: 10px;
-        width: 80%;
-        padding-top: 80%;
+        width: 100%;
+        padding-top: 100%;
         display: inline-block;
         max-width: none;
         position: relative;
