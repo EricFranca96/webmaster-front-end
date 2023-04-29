@@ -78,11 +78,13 @@ nav.mobile-menu ul li a {
 }
 
 header .logo {
+    position: relative;
+    top: -5px;
     float: left;
     width: 160px;
-    height: 60px;
+    height: 40px;
     background-image: url(../imagens/logo1.png);
-    background-size: 100% auto;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -286,8 +288,8 @@ section.sessao1 .container {
     float: left;
     width: 40px;
     height: 40px;
-    position: relative;
-    top: -4px;
+    background-image: url(../imagens/capa.png);
+    background-size: 100% 100%;
     border-radius: 20px;
     background: green;
 }
@@ -320,19 +322,19 @@ section.sessao1 .container {
     background-color: rgb(200, 200, 200);
 }
 
-section.sessao4{
+section.sessao4 {
     background-color: #472563;
     padding: 100px 0;
 }
 
-.form{
+.form {
     float: left;
     width: 50%;
     color: white;
     padding-left: 10px;
 }
 
-.form h2{
+.form h2 {
     font-size: 23px;
     font-weight: 300;
 }
@@ -360,7 +362,7 @@ section.sessao4{
     border: 1px solid rgb(200, 200, 200);
 }
 
-.form form textarea{
+.form form textarea {
     width: 90%;
     margin-top: 8px;
     max-width: 480px;
@@ -369,7 +371,7 @@ section.sessao4{
     height: 160px;
 }
 
-.form form input[type="submit"]{
+.form form input[type="submit"] {
     border: 0;
     background-color: #FF703D;
     width: 165px;
@@ -381,7 +383,7 @@ section.sessao4{
     border-radius: 30px;
 }
 
-.map-wraper{
+.map-wraper {
     float: left;
     width: 50%;
     padding: 0 10px;
@@ -393,7 +395,7 @@ section.sessao4{
     font-weight: 300;
 }
 
-.map-wraper3{
+.map-wraper3 {
     margin-top: 10px;
     width: 100%;
     max-width: 480px;
@@ -410,7 +412,7 @@ section.sessao4{
 
 
 
-.map{
+.map {
     left: 0;
     top: 0;
     position: absolute;
@@ -420,6 +422,21 @@ section.sessao4{
     border: 5px solid rgb(200, 200, 200);
 }
 
+footer {
+    padding: 40px 2%;
+    background: #192123;
+    color: white;
+}
+
+footer p:nth-of-type(1) {
+    float: left;
+    font-size: 14px;
+}
+
+footer p:nth-of-type(2) {
+    float: right;
+    font-size: 14px;
+}
 
 @media screen and (max-width:830px) {
     .chamada1 {
@@ -443,6 +460,7 @@ section.sessao4{
         margin-top: 10px;
     }
 }
+
 
 @media screen and (max-width: 768px) {
     header {
@@ -497,30 +515,30 @@ section.sessao4{
     .sessao2 {
         padding-top: 40px;
     }
-    
-    section.sessao4 .container{
+
+    section.sessao4 .container {
         text-align: center;
     }
 
-    .form{
+    .form {
         float: none;
         width: 100%;
     }
 
-    .form p{
+    .form p {
         display: inline-block;
         float: none;
 
     }
 
-    .map-wraper{
+    .map-wraper {
         float: none;
         width: 100%;
         padding: 0 4%;
         margin-top: 40px;
     }
 
-    .map-wraper3{
+    .map-wraper3 {
         margin-top: 10px;
         width: 80%;
         padding-top: 80%;
@@ -528,7 +546,7 @@ section.sessao4{
         max-width: none;
         position: relative;
     }
-    
+
     .map-wraper2 {
         position: absolute;
         left: 0;
@@ -537,19 +555,36 @@ section.sessao4{
         height: 100%;
         padding-top: 0;
 
+    }
 }
 
 @media screen and (max-width: 580px) {
-    .part1{
+    .part1 {
         width: 100%;
         padding: 40px 0;
     }
-    .part2{
+
+    .part2 {
         width: 100%;
         padding: 40px 0;
     }
+
     .sessao2 img {
         top: 16px;
         margin-top: 20px;
     }
+
+    footer{
+        text-align: center;
+    }
+    
+    footer p:nth-of-type(1){
+        float: none;
+    }
+    
+    footer p:nth-of-type(2){
+        float: none;
+        margin-top: 8px;
+    }
+
 }
