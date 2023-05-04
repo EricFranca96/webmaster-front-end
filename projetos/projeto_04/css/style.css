@@ -287,7 +287,65 @@ section.depoimentos .depoimento-single{
     vertical-align: top;
 }
 
+.intagram-chamada{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background: #98a5ae;
+}
+
+.intagram-chamada p{
+    line-height: 23px;
+    color: white;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+.mosaico-social{
+    float: left;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.img-mosaico-single-social{
+    float: left;
+    width: calc(100% / 9);
+    padding-top: calc(100% / 9);
+    background-color: blue;
+    border: 6px solid white;
+}
+
+.facebook-chamada{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background: #576975;
+}
+
+.facebook-chamada p{
+    line-height: 23px;
+    color: white;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+
+
+
 /*MEDIA SCREEN*/
+@media  screen and (max-width: 1024px) {
+    .img-mosaico-single-social{
+        width: calc(100% / 6);
+        padding-top: calc(100% / 6);
+    }
+    .mosaico-social > div:nth-of-type(1n+7){
+        display: none;
+    }
+}
+
 
 @media screen and (max-width: 768px){
     nav.menu-desktop{
@@ -365,7 +423,14 @@ section.depoimentos .depoimento-single{
         /* border: 5px solid white; */
         padding-top: calc(70% * 0.6);
     }
-
+    
+    .img-mosaico-single-social{
+        width: calc(100% / 3);
+        padding-top: calc(100% / 3);
+    }
+    .mosaico-social > div:nth-of-type(1n+4){
+        display: none;
+    }
 }
 
 @media screen and (max-width: 580px) {
