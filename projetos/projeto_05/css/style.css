@@ -205,15 +205,15 @@ section.veiculos-destaque .container {
 
 .btn1 {
     text-align: center;
-	display: block;
-	line-height: 40px;
-	background-color:#EB2D2D;
-	text-decoration: none;
-	border-bottom: 5px solid #B21E1E;
-	color: white;
-	font-size: 16px;
-	font-style: italic;
-	width: 150px;
+    display: block;
+    line-height: 40px;
+    background-color: #EB2D2D;
+    text-decoration: none;
+    border-bottom: 5px solid #B21E1E;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    width: 150px;
 }
 
 .vitrine-destaque a {
@@ -221,104 +221,104 @@ section.veiculos-destaque .container {
     margin-top: 10px;
 }
 
-.servicos-descricao{
-	display: flex;
+.servicos-descricao {
+    display: flex;
 }
 
-.half1{
-	width: 50%;
-	text-align: right;
-	padding:90px 0;
-	background: #242424;
-	color: white;
+.half1 {
+    width: 50%;
+    text-align: right;
+    padding: 90px 0;
+    background: #242424;
+    color: white;
 }
 
-.half1-wraper{
-	padding-right: 20%;
-	text-align: left;
-	display: inline-block;
+.half1-wraper {
+    padding-right: 20%;
+    text-align: left;
+    display: inline-block;
 }
 
-.half1-wraper h2{
-	font-weight: normal;
-	font-style: italic;
-	font-size: 32px;
+.half1-wraper h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
 }
 
-.half1-wraper ul{
-	display: inline-block;
-	margin-top:20px;
+.half1-wraper ul {
+    display: inline-block;
+    margin-top: 20px;
 }
 
-.half1-wraper li{
-	margin-left: 15px;
+.half1-wraper li {
+    margin-left: 15px;
 }
 
-.half1-wraper a{
-	margin-left: 40px;
-	display: inline-block;
-	vertical-align: bottom;
+.half1-wraper a {
+    margin-left: 40px;
+    display: inline-block;
+    vertical-align: bottom;
 }
 
-.half2{
-	width: 50%;
-	padding:90px 100px;
-	background:#EB2D2D;
-	color: white;
+.half2 {
+    width: 50%;
+    padding: 90px 100px;
+    background: #EB2D2D;
+    color: white;
 }
 
-.half2 h2{
-	font-weight: normal;
-	font-style: italic;
-	font-size: 32px;
+.half2 h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
 }
 
-.half2 .depoimento-single{
-	margin-top:19px;
+.half2 .depoimento-single {
+    margin-top: 19px;
 }
 
-.depoimento-single p{
-	font-size: 22px;
+.depoimento-single p {
+    font-size: 22px;
 }
 
-.navigation{
-	float: left;
-	width: 100%;
-	max-width: 700px;
-	margin-top:30px;
+.navigation {
+    float: left;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
 }
 
-.arrows{
-	float: left;
+.arrows {
+    float: left;
 }
 
-.navigation img{
-	cursor: pointer;
-	margin:0 20px;
+.navigation img {
+    cursor: pointer;
+    margin: 0 20px;
 }
 
-.nome-depoimento{
-	float: right;
-	color: #252525;
-	font-size: 23px;
+.nome-depoimento {
+    float: right;
+    color: #252525;
+    font-size: 23px;
 }
 
-section.contato{
+section.contato {
     padding: 80px 2%;
 }
 
-section.contato form{
+section.contato form {
     max-width: 600px;
     margin: 50px auto;
 }
 
-section.contato .input-wraper{
+section.contato .input-wraper {
     float: left;
     padding: 10px;
     margin-top: 15px;
 }
 
-section.contato input[type=text]{
+section.contato input[type=text] {
     width: 100%;
     border: 1px solid #ccc;
     height: 40px;
@@ -326,7 +326,7 @@ section.contato input[type=text]{
     padding-left: 15px;
 }
 
-section.contato textarea{
+section.contato textarea {
     width: 100%;
     border: 1px solid #ccc;
     height: 120px;
@@ -334,11 +334,11 @@ section.contato textarea{
     resize: none;
 }
 
-section.contato form .input-wraper:nth-of-type(5){
+section.contato form .input-wraper:nth-of-type(5) {
     text-align: center;
 }
 
-section.contato input[type="submit"]{
+section.contato input[type="submit"] {
     border-right: 0;
     border-left: 0;
     border-top: 0;
@@ -350,40 +350,147 @@ section.contato input[type="submit"]{
     width: 100%;
 }
 
-.w50{
+.w50 {
     width: 50%;
 }
 
-footer{
+footer {
     padding: 40px 2%;
     background: #252525;
 }
 
-footer nav{
+footer nav {
     float: left;
 }
 
-footer nav ul{
+footer nav ul {
     list-style-type: none;
 }
 
-footer nav ul li{
+footer nav ul li {
     float: left;
     font-style: italic;
     padding: 0 35px;
     font-size: 19px;
 }
 
-footer nav ul li a{
+footer nav ul li a {
     color: white;
     text-decoration: none;
 }
 
-footer p{
+footer p {
     float: right;
     color: white;
     font-size: 19px;
     font-style: italic;
+}
+
+section.venda {
+    padding: 90px 0;
+    min-height: 90%;
+}
+
+.content-venda {
+    margin-top: 40px;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+}
+
+.search1 {
+    width: 300px;
+}
+
+.search1 h2 {
+    font-size: 24px;
+    color: black;
+    font-weight: normal;
+}
+
+.search1 .barra-preco {
+    width: 300px;
+    height: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.barra-preco-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+    background: rgb(200, 200, 200);
+}
+
+.pointer-barra {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: calc(30% - 13px);
+    cursor: pointer;
+    top: -3px;
+    border-radius: 13px;
+    background: rgb(210, 210, 210);
+    border: 1px solid black;
+}
+
+.valor-pesquisa {
+    margin-top: 8px;
+}
+
+.valor-pesquisa p {
+    color: black;
+    font-size: 15px;
+}
+
+.valor-pesquisa p:nth-of-type(1) {
+    float: left;
+}
+
+.valor-pesquisa p:nth-of-type(2) {
+    float: right;
+}
+
+.search2 {
+    margin-top: 40px;
+}
+
+.search2 h2 {
+    font-size: 24px;
+    color: black;
+    font-weight: normal;
+}
+
+.form-venda-wraper{
+    margin-top: 10px;
+}
+
+.form-venda-wraper input[type="checkbox"]{
+    display: none;
+}
+
+.form-venda-wraper label{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.form-venda-wraper span{
+    padding: 0 10px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 /* MEDIA SCREEN */
@@ -407,7 +514,7 @@ footer p{
 
 
 @media screen and (max-width:900px) {
-    .nome-depoimento{
+    .nome-depoimento {
         float: left;
         width: 100%;
         margin: 20px 20px;
@@ -415,26 +522,28 @@ footer p{
 }
 
 @media screen and (max-width: 768px) {
-    footer nav{
+    footer nav {
         display: none;
     }
 
-    footer{
+    footer {
         text-align: center;
     }
 
-    footer p{
+    footer p {
         float: none;
     }
 
-    .w50{
+    .w50 {
         width: 100%;
     }
-    .nome-depoimento{
+
+    .nome-depoimento {
         float: right;
         width: auto;
         margin: 0px 0px;
     }
+
     section.servicos-descricao {
         flex-direction: column;
     }
@@ -471,9 +580,10 @@ footer p{
         font-size: 18px;
     }
 
-    .text-banner .text-banner-single:nth-of-type(4){
+    .text-banner .text-banner-single:nth-of-type(4) {
         width: 270px;
     }
+
     section.veiculos-destaque .line-titulo h2 {
         font-size: 23px;
     }
