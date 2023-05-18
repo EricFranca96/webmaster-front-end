@@ -87,8 +87,9 @@ header nav.desktop a {
 }
 
 section.banner {
+    overflow: hidden;
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-color: black;
     background-image: url(../imagens/bg.jpg);
     background-size: contain;
@@ -97,46 +98,45 @@ section.banner {
 }
 
 .text-banner {
-    padding: 100px;
-    float: left;
-    width: 100%;
-
+    padding: 70px;
 }
 
 .text-banner-single {
     width: 314px;
     font-style: italic;
-    margin-top: 20px;
-    padding: 12px 30px;
-    height: 50px;
+    margin-top: 30px;
+    padding-left: 50px;
+    height: 70px;
     text-transform: uppercase;
     color: white;
     font-size: 23px;
     background-image: url(../imagens/box-text.png);
     background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .text-banner .text-banner-single:nth-of-type(2) {
     width: 200px;
-    height: 50px;
+    height: 70px;
     position: relative;
     left: -10px;
 }
 
 .text-banner .text-banner-single:nth-of-type(3) {
     width: 170px;
-    height: 50px;
+    height: 70px;
+    line-height: 70px;
     position: relative;
     left: -20px;
 }
 
 .text-banner .text-banner-single:nth-of-type(4) {
     width: 320px;
-    height: 50px;
     font-size: 21px;
     color: black;
     position: relative;
     left: -30px;
+    line-height: 70px;
     background-image: url(../imagens/box-white-text.png);
 }
 
@@ -154,18 +154,18 @@ section.veiculos-destaque .container {
     margin: 0 auto;
     position: relative;
     text-align: center;
-    
+
 }
 
-.ln1{
+.ln1 {
     position: absolute;
-    height: 1px;
+    height: 2px;
     width: 100%;
-    top:20px;
+    top: 20px;
     background: black;
 }
 
-section.veiculos-destaque .line-titulo h2 {
+.line-titulo h2 {
     position: relative;
     background: white;
     display: inline-block;
@@ -176,26 +176,26 @@ section.veiculos-destaque .line-titulo h2 {
     text-transform: uppercase;
 }
 
-.vitrine-destaque{
+.vitrine-destaque {
     float: left;
     width: 33.3%;
 }
 
-.vitrine-destaque .carro-img{
+.vitrine-destaque .carro-img {
     width: 100%;
     padding-top: 100%;
     border: 8px solid white;
     background-size: 100% 100%;
 }
 
-.vitrine-destaque h2{
+.vitrine-destaque h2 {
     padding-left: 8px;
     color: black;
     font-style: italic;
     font-size: 20px;
 }
 
-.vitrine-destaque p{
+.vitrine-destaque p {
     padding-top: 8px;
     padding-left: 8px;
     color: #353535;
@@ -203,156 +203,244 @@ section.veiculos-destaque .line-titulo h2 {
     font-style: italic;
 }
 
+.btn1 {
+    text-align: center;
+	display: block;
+	line-height: 40px;
+	background-color:#EB2D2D;
+	text-decoration: none;
+	border-bottom: 5px solid #B21E1E;
+	color: white;
+	font-size: 16px;
+	font-style: italic;
+	width: 150px;
+}
+
 .vitrine-destaque a {
     margin-left: 8px;
     margin-top: 10px;
-    
-    
-}
-.btn1{
-    color: white;
-    font-size: 16px;
-    font-style: italic;
-    width: 150px;
-    text-align: center;
-    display: block;
-    line-height: 40px;
-    background-color: #eb2d2d;
-    text-decoration: none;
-    border-bottom: 3px solid #b21e1e;
 }
 
 .servicos-descricao{
-    display: flex;
+	display: flex;
 }
 
 .half1{
-    width: 50%;
-    text-align: right;
-    padding: 90px 0;
-    background: #242424;
-    color: white;
+	width: 50%;
+	text-align: right;
+	padding:90px 0;
+	background: #242424;
+	color: white;
 }
 
 .half1-wraper{
-    padding-right: 30%;
-    text-align: left;
-    display: inline-block;
+	padding-right: 20%;
+	text-align: left;
+	display: inline-block;
 }
 
 .half1-wraper h2{
-    font-weight: normal;
-    font-style: italic;
-    font-size: 32px;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 32px;
 }
 
 .half1-wraper ul{
-    display: inline-block;
-    margin-top: 20px;
+	display: inline-block;
+	margin-top:20px;
 }
 
 .half1-wraper li{
-    margin-left: 15px;
+	margin-left: 15px;
 }
 
 .half1-wraper a{
-    margin-left: 40px;
-    display: inline-block;
-    vertical-align: bottom;
+	margin-left: 40px;
+	display: inline-block;
+	vertical-align: bottom;
 }
 
 .half2{
-    width: 50%;
-    padding: 90px 100px;
-    background: #eb2d2d;
-    color: white;
+	width: 50%;
+	padding:90px 100px;
+	background:#EB2D2D;
+	color: white;
 }
 
 .half2 h2{
-    font-weight: normal;
-    font-style: italic;
-    font-size: 32px;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 32px;
 }
 
 .half2 .depoimento-single{
-    margin-top: 19px;
+	margin-top:19px;
 }
 
-.depoimento-single p {
-    font-size: 22px;
+.depoimento-single p{
+	font-size: 22px;
 }
 
 .navigation{
-    float: left;
-    width: 100%;
-    height: 700px;
-    margin-top: 30px;
+	float: left;
+	width: 100%;
+	max-width: 700px;
+	margin-top:30px;
 }
 
 .arrows{
-    float: left;
+	float: left;
 }
 
 .navigation img{
-    cursor: pointer;
-    margin: 0 20px;
+	cursor: pointer;
+	margin:0 20px;
 }
 
 .nome-depoimento{
+	float: right;
+	color: #252525;
+	font-size: 23px;
+}
+
+section.contato{
+    padding: 80px 2%;
+}
+
+section.contato form{
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+section.contato .input-wraper{
+    float: left;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+section.contato input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+section.contato textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 8px;
+    resize: none;
+}
+
+section.contato form .input-wraper:nth-of-type(5){
+    text-align: center;
+}
+
+section.contato input[type="submit"]{
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+footer{
+    padding: 40px 2%;
+    background: #252525;
+}
+
+footer nav{
+    float: left;
+}
+
+footer nav ul{
+    list-style-type: none;
+}
+
+footer nav ul li{
+    float: left;
+    font-style: italic;
+    padding: 0 35px;
+    font-size: 19px;
+}
+
+footer nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
     float: right;
-    color: #252525;
-    font-size: 23px;
+    color: white;
+    font-size: 19px;
+    font-style: italic;
 }
 
 /* MEDIA SCREEN */
 
-@media screen and (max-width: 1400px) {
-    section.banner {
-        background-size: 90% auto;
-        background-position: 200% 100%;
-    }
-}
-
-@media screen and (max-width:1100px){
+@media screen and (max-width:1100px) {
     .half1 {
         text-align: center;
-}
-
-.half1-wraper{
-    text-align: left;
-    padding-right: 0;
-}
-
-.half1-wraper a{
-    display: block;
-    margin-left: 0;
-    margin-top: 15px;
-}
-}
-
-@media screen and (max-width:1024px) {
-    section.banner {
-        background-size: cover;
-        background-position: center;
-        height: 70vw;
-        min-height: 500px;
     }
-}
 
-@media screen and (max-width:850px){
-    .half1-wraper a{
+    .half1-wraper {
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .half1-wraper a {
         display: block;
         margin-left: 0;
         margin-top: 15px;
     }
 }
 
+
+@media screen and (max-width:900px) {
+    .nome-depoimento{
+        float: left;
+        width: 100%;
+        margin: 20px 20px;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    section.servicos-descricao{
+    footer nav{
+        display: none;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer p{
+        float: none;
+    }
+
+    .w50{
+        width: 100%;
+    }
+    .nome-depoimento{
+        float: right;
+        width: auto;
+        margin: 0px 0px;
+    }
+    section.servicos-descricao {
         flex-direction: column;
     }
 
-    .half1, .half2{
+    .half1,
+    .half2 {
         padding: 80px 4%;
         width: 100%;
     }
@@ -379,10 +467,14 @@ section.veiculos-destaque .line-titulo h2 {
     }
 
     .text-banner-single {
+        width: 240px;
         font-size: 18px;
     }
 
-    section.veiculos-destaque .line-titulo h2{
+    .text-banner .text-banner-single:nth-of-type(4){
+        width: 270px;
+    }
+    section.veiculos-destaque .line-titulo h2 {
         font-size: 23px;
     }
 
@@ -392,20 +484,20 @@ section.veiculos-destaque .line-titulo h2 {
         text-align: center;
     }
 
-    .vitrine-destaque{
+    .vitrine-destaque {
         display: inline-block;
         float: none;
         width: 80%;
         margin-top: 20px;
     }
 
-    .vitrine-destaque a{
+    .vitrine-destaque a {
         display: inline-block;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .vitrine-destaque{
+    .vitrine-destaque {
         width: 100%;
     }
 }
