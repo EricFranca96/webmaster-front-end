@@ -10,13 +10,13 @@ body {
     height: 100%;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
@@ -25,21 +25,56 @@ header {
     height: 130px;
 }
 
-header div.logo{
+header div.logo {
     float: left;
 }
 
-header nav.desktop{
+header nav.desktop {
     float: right;
     position: relative;
     top: 40px;
 }
 
-header nav.desktop ul{
+nav.mobile {
+    margin-top: 40px;
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    background-image: url(../imagens/icon_menu.png);
+    display: none;
+}
+
+nav.mobile ul {
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 95px;
+    border-bottom: 4px solid #eb2d2d;
+    z-index: 999;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+}
+
+nav.mobile li {
+    font-size: 23px;
+    padding: 20px 0px;
+    font-style: italic;
+    color: black;
+}
+
+nav.mobile li a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav.desktop ul {
     list-style-type: none;
 }
 
-header nav.desktop ul li{
+header nav.desktop ul li {
     float: left;
     font-size: 23px;
     padding: 0 30px;
@@ -51,7 +86,7 @@ header nav.desktop a {
     text-decoration: none;
 }
 
-section.banner{
+section.banner {
     width: 100%;
     height: 600px;
     background-color: black;
@@ -61,14 +96,14 @@ section.banner{
     background-repeat: no-repeat;
 }
 
-.text-banner{
+.text-banner {
     padding: 100px;
     float: left;
     width: 100%;
-   
+
 }
 
-.text-banner-single{
+.text-banner-single {
     width: 314px;
     font-style: italic;
     margin-top: 20px;
@@ -81,40 +116,72 @@ section.banner{
     background-size: 100% 100%;
 }
 
-.text-banner .text-banner-single:nth-of-type(2){
+.text-banner .text-banner-single:nth-of-type(2) {
     width: 200px;
     height: 50px;
     position: relative;
     left: -10px;
 }
 
-.text-banner .text-banner-single:nth-of-type(3){
+.text-banner .text-banner-single:nth-of-type(3) {
     width: 170px;
     height: 50px;
     position: relative;
     left: -20px;
 }
 
-.text-banner .text-banner-single:nth-of-type(4){
+.text-banner .text-banner-single:nth-of-type(4) {
     width: 320px;
     height: 50px;
     font-size: 21px;
     color: black;
-    position:relative;
+    position: relative;
     left: -30px;
     background-image: url(../imagens/box-white-text.png);
 }
+
+section.veiculos-destaque {
+    padding: 90px 2%;
+}
+
+.line-titulo {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    
+}
+
+.ln1{
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    top:20px;
+    background: black;
+}
+
+section.veiculos-destaque h2 {
+    position: relative;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 27px;
+    padding: 0 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
 /* MEDIA SCREEN */
 
-@media screen and (max-width: 1400px){
-    section.banner{
+@media screen and (max-width: 1400px) {
+    section.banner {
         background-size: 90% auto;
         background-position: 200% 100%;
     }
 }
-    
-@media screen and (max-width:1024px){
-    section.banner{
+
+@media screen and (max-width:1024px) {
+    section.banner {
         background-size: cover;
         background-position: center;
         height: 70vw;
@@ -122,18 +189,22 @@ section.banner{
     }
 }
 
-@media screen and (max-width720px){
-    nav.desktop{
+@media screen and (max-width: 768px) {
+    nav.desktop {
         display: none;
+    }
+
+    nav.mobile {
+        display: block;
     }
 }
 
-@media screen and (max-width:580px){
-    .text-banner{
+@media screen and (max-width:580px) {
+    .text-banner {
         padding: 30px;
     }
 
-    .text-banner-single{
+    .text-banner-single {
         font-size: 18px;
     }
 }
