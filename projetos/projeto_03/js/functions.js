@@ -3,7 +3,7 @@ window.onload = function() {
 
     function initialize() {
         var mapProp = {
-            center: new google.maps.LatLng(-27.648598, -48.577423),
+            center: new google.maps.LatLng(-20.378030, -43.416540),
             scrollwheel: false,
             zoom: 12,
             mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -24,7 +24,7 @@ window.onload = function() {
         var infoWindow = new google.maps.InfoWindow({
             content: content,
             maxWidth: 200,
-            pixelOffset: new google.maps.Size(0, 20)
+            pixelOffset: new google.maps.Size(20, 43)
         });
 
         infoWindow.open(map, marker);
@@ -33,5 +33,5 @@ window.onload = function() {
     initialize();
 
     var conteudo = '<p style="color:black;font-size:13px;padding10px 0;">Meu endereço</p>';
-    addMarker(-27.616637, -48.5923228, '', conteudo);
+    addMarker(-20.378030, -43.416540, '', conteudo);
 };
