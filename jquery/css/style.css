@@ -10,7 +10,6 @@ html,body{
 
 .box{
     width: 500px;
-    height: 500px;
-    margin: 0 auto;
-    background-color: #ccc;
+    background: #ccc;
+    margin: 30px;
 }
