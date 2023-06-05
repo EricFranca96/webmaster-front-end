@@ -1,27 +1,17 @@
-window.onload = function () {
-
-    /*function teste(num1, num2) {
-        return num1 + num2;
+var n = 0;
+//continue
+//break
+/*for(var i = 0; i <= 10; i++){
+    if(i == 2){
+        break;
     }
-
-    var variavel = teste(10, 20);
-
-    console.log(variavel);
-   */
-
-   /*var obj = {'nome':'Guilherme', 'idade':23};
-
-    obj.func = function(){
-        console.log('minha funcao');
+    console.log(i);
+}*/
+while(n < 10){
+    if(n == 5){
+        break;
     }
+    console.log(n);
 
-    obj.func()*/
-
-    var variavel = [];
-
-    variavel[0] = [];
-
-    variavel[0][2] = 'Guilherme';
-
-    console.log(variavel[0][2]);
+    n++;
 }
