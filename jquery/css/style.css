@@ -8,12 +8,9 @@ html,body{
     height: 100%;
 }
 
-.artigo1{
-    width: 100%;
-    background-color: rgb(210,210,210);
-}
-
-.artigo2{
-    background-color: rgb(100,100,100);
-    margin-top: 190px;
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ccc;
 }

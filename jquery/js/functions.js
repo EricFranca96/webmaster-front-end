@@ -1,34 +1,43 @@
 $(function () {
 
-
-    function validarCliqueHover() {
-        $('.artigo1').click(function () {
-            $('.artigo2').css('background-color', 'purple');
-        });
-
-        $('.artigo1').hover(function () {
-            $('.artigo2').css('background-color', 'red');
-        }, function () {
-            $('.artigo2').css('background-color', 'rgb(100,100,100)');
-        });
-    }
-
-    function validarFormulario() {
-        $('select').change(function () {
-            console.log("meu select foi alterado!");
-        });
-    }
-    validarFormulario();
-    validarCliqueHover();
+    $('.box').click(function (e) {
+        e.stopPropagation();
+    });
 
 
-    /*
-        $('textarea').focus(function() {
-            alert('Estou dentro do textarea');
-        })
-    
-        $('textarea').blur(function() {
-            alert('Estou fora do textarea!');
-        });
-    */
+    $('body').click(function () {
+        $('.box').css('background-color','green');
+    });
+
+
+
+
+
+
+
 });
+    /*
+    var timer;
+
+    $('window').scroll(function(){
+        //Evento de quando o scroll ocorre.
+    });
+    
+    $(window).resize(function(){
+        //Evento de quando redimensionamos a tela.
+        //console.log("Minha tela está sendo redimensionada!");
+        clearTimeout(timer);
+        timer = setTimeout(function(){
+            location.href = "http://localhost/dankiCode/front-end/webmaster-front-end/jquery/";
+        },1000);
+        
+
+    });
+
+    $('a').click(function(e){
+        
+        e.preventDefault();	
+        return false;
+       
+    });
+});*/
