@@ -1,19 +1,6 @@
-/*
-$(function(){
-    alert("Olá Mundo!");
-})
-
-$(document).ready(function() {
-    alert("Olá Mundo!");
-});
-
-$(window).on('load', function() {
-    alert("Olá Mundo!");
-})
-*/
-
-//Modo de trabalhar para facilitar a leitura.
-
 $(function() {
-    alert("Olá Mundo!");
+    
+    $('.artigo1 > p').css('color','rgba(0,0,0,0.6');
+    console.log($('.artigo1 > p').css('color'));
+
 })
