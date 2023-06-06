@@ -1,8 +1,27 @@
 $(function(){
-    //Função append() para adicionar conteúdo/elementos no final do elemento que selecionarmos.
-    //$('.box div').eq(1).append('<h3>Meu elemento adicionado dinamicamente</h3>');
+    
+    var func = function(){
+        $('input[type=text').eq($(this).index()).css('background','green');
+    }
 
-    var el = $('<h3>Meu Conteúdo</h3>').appendTo($('.box'));
+    $('input[type=text]').keyup(func);
 
-    el.css('color','red');
+
+
+
+    /*
+    $('a').click(function(){
+        alert('Olá Mundo!');
+    });
+
+    $('body').on('click', 'a', function(){
+        alert('Olá Mundo!');
+        return false;
+    })
+
+    setTimeout(function(){
+        $('body').html('<a href="">Meu Link!</a>');
+    },3000)
+    */
+
 });
