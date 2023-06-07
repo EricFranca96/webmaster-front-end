@@ -1,27 +1,16 @@
 $(function(){
     
-    var func = function(){
-        $('input[type=text').eq($(this).index()).css('background','green');
-    }
+    
 
-    $('input[type=text]').keyup(func);
+    $('.form_contato').submit(function(){
+        
+        var container = $('.container');
+        var content = 'Nome: ' + $('input[name="nome"]').val() +
+        '<hr>E-mail: ' + $('input[name="email"]').val() + 
+        '<hr>Telefone: ' + $('input[name="telefone"]').val();
 
-
-
-
-    /*
-    $('a').click(function(){
-        alert('Olá Mundo!');
-    });
-
-    $('body').on('click', 'a', function(){
-        alert('Olá Mundo!');
+        container.html(content);
         return false;
     })
-
-    setTimeout(function(){
-        $('body').html('<a href="">Meu Link!</a>');
-    },3000)
-    */
 
 });
