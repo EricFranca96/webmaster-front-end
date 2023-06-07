@@ -1,11 +1,11 @@
-$(function(){
-    
-    
-    $('.box1').fadeOut(2000, function(){
-        $('.box2').fadeIn(3000, function(){
-            console.log("Terminamos nossa animação!");
-        });
+$(function () {
+
+    $('.box1').animate({
+        'width' : '40%',
+        'height' : '500px',
+    },2000, function () {
+        console.log("Terminamos nossa animação.");
     });
-    
+
 
 });
