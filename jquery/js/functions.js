@@ -1,16 +1,11 @@
 $(function(){
     
     
-
-    $('.form_contato').submit(function(){
-        
-        var container = $('.container');
-        var content = 'Nome: ' + $('input[name="nome"]').val() +
-        '<hr>E-mail: ' + $('input[name="email"]').val() + 
-        '<hr>Telefone: ' + $('input[name="telefone"]').val();
-
-        container.html(content);
-        return false;
-    })
+    $('.box1').fadeOut(2000, function(){
+        $('.box2').fadeIn(3000, function(){
+            console.log("Terminamos nossa animação!");
+        });
+    });
+    
 
 });
