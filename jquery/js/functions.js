@@ -1,5 +1,20 @@
 $(function () {
 
+    var timer;
+
+    $('body').click(function () {
+        console.log("Intervalo cancelado");
+        clearInterval(timer);
+    })
+    timer = setInterval(function () {
+        alert('Olá mundo');
+    },3000);
+
+
+
+
+
+    /*
     var timeOut = function(){
         $('.box2').animate({
             'width' : '40%',
@@ -17,6 +32,7 @@ $(function () {
     },2000, function () {
         setTimeout(timeOut,3000);
     });
+    */
 
 
 });
