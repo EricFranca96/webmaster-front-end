@@ -8,16 +8,8 @@ html,body{
     height: 100%;
 }
 
-.box{
-    width: 100%;
-    padding: 40px 3%;
-    background-color: rgb(210,210,210);
-    color: black;
-    text-align: center;
-    margin: 30px 0;
-}
-
-.box2{
-    background-color: yellow;
-    
+#container{
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 500px;
 }
