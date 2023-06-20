@@ -48,7 +48,7 @@ html,body{
     background-color: white;
     max-width: 400px;
     padding: 80px 2%;
-    width: calc(94% - 32px);
+    width: calc(94% - 32);
 }
 
 .form input[type="text"]{
